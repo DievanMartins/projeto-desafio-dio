@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    -color--dark:#000;
+    -color--gray:#ccc;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.box{
+    width: 18.75rem;
+    height: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lamp img{
+    margin-bottom: 0.5rem;
+}
+.buttons button{
+    width: 7.5rem;
+    margin: 5px 5px;
+    padding: 5px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: rgb(255, 163, 25);
+    color: var(-color--dark);
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.buttons button:hover{
+    background: rgb(255, 193, 99);
+}
+footer p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.social{
+    text-align: center;
+}
+.social img{
+    width: 2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.social img:last-child{
+    margin-left: 0.3rem;
+}
